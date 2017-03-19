@@ -10,6 +10,10 @@ namespace ThamMa
     {
         static void Main(string[] args)
         {
+            string s = "ab bc bb aa";
+            string t = "abc aaa bbbb aa";
+            float[] a = Lib.tinhTanSo2(s, t);
+            Console.Write(a);
         }
     }
 }
